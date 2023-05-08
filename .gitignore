@@ -4,6 +4,9 @@
 /storage/*.key
 /vendor
 .env
+.data
+lara-log
+logs
 .zip
 .env.backup
 .phpunit.result.cache
