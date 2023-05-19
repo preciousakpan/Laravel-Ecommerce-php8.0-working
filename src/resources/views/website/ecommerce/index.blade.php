@@ -32,12 +32,12 @@
                             <div class="tab-area box-shadow bg-fff">
                                 <div class="product-title home3-bg text-uppercase">
                                     <i class="fa fa-check-square-o icon home3-bg2"></i>
-                                    <h3>Recent Product</h3>
+                                    <h3>Recent Precious Product</h3>
                                     <div class="tab-menu home3-tab-menu floatright hidden-xs">
                                         <ul class="nav">
-                                            <li><a href="#" class="active">Electronics</a></li>
-                                            <li><a href="#" >Smartphone</a></li>
-                                            <li><a href="#" >Tablets</a></li>
+                                            <li><a href="#" class="active">Precious Electronics</a></li>
+                                            <li><a href="#" >Precious Smartphone</a></li>
+                                            <li><a href="#" >Precious Tablets</a></li>
                                         </ul>
                                     </div>
                                 </div>
