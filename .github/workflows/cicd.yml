@@ -16,12 +16,12 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
-        script: |
-          cd /var/www/html/Laravel-Ecommerce-php8.0-working
-          docker-compose down
-          sudo git pull origin master
-          docker-compose up --build -d
-          echo "Done"
+#         script: |
+#           cd /var/www/html/Laravel-Ecommerce-php8.0-working
+#           docker-compose down
+#           sudo git pull origin master
+#           docker-compose up --build -d
+#           echo "Done"
 
     - name: Check current user
       run: whoami
