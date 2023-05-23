@@ -18,9 +18,9 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         script: |
           cd /var/www/html/Laravel-Ecommerce-php8.0-working
-          sudo docker-compose down
+          sudo /usr/bin/docker-compose down
           sudo git pull origin master
-          sudo docker-compose up --build -d
+          sudo /usr/bin/docker-compose up --build -d
           echo "Done"
 
     - name: Check current user
