@@ -39,4 +39,4 @@ jobs:
       run: sudo docker-compose up --build -d
       
     - name: Done
-      run: echo "Done"
+      run: echo "Done2"
