@@ -19,7 +19,7 @@ jobs:
         script: |
           /usr/bin/docker-compose --version
           cd /var/www/html/Laravel-Ecommerce-php8.0-working
-          sudo /usr/bin/docker-compose down
+#          sudo /usr/bin/docker-compose down
           sudo git pull origin master
           sudo /usr/bin/docker-compose up --build -d
           echo "Done"
