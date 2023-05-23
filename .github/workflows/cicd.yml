@@ -16,27 +16,27 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
-#         script: |
-#           cd /var/www/html/Laravel-Ecommerce-php8.0-working
-#           docker-compose down
-#           sudo git pull origin master
-#           docker-compose up --build -d
-#           echo "Done"
+        script: |
+          cd /var/www/html/Laravel-Ecommerce-php8.0-working
+          sudo docker-compose down
+          sudo git pull origin master
+          sudo docker-compose up --build -d
+          echo "Done"
 
     - name: Check current user
       run: whoami
       
-    - name: Change working directory
-      run: cd /var/www/html/Laravel-Ecommerce-php8.0-working
+#     - name: Change working directory
+#       run: cd /var/www/html/Laravel-Ecommerce-php8.0-working
       
-    - name: Bring down containers
-      run: sudo docker-compose down
+#     - name: Bring down containers
+#       run: sudo docker-compose down
       
-    - name: Git Pull
-      run: sudo git pull origin master
+#     - name: Git Pull
+#       run: sudo git pull origin master
       
-    - name: Spin up containers
-      run: sudo docker-compose up --build -d
+#     - name: Spin up containers
+#       run: sudo docker-compose up --build -d
       
-    - name: Done
-      run: echo "Done2"
+#     - name: Done
+#       run: echo "Done"
