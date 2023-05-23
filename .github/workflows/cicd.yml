@@ -21,7 +21,7 @@ jobs:
           cd /var/www/html/Laravel-Ecommerce-php8.0-working
           sudo docker-compose down
           sudo git pull origin master
-          sudo /usr/bin/docker-compose --build
+          sudo /usr/bin/docker-compose build
           sudo docker-compose up -d
           echo "Done"
 
