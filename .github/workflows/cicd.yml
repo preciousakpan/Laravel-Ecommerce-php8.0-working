@@ -21,24 +21,10 @@ jobs:
           cd /var/www/html/Laravel-Ecommerce-php8.0-working
           sudo docker-compose down
           sudo git pull origin master
-          sudo /usr/bin/docker-compose build
+          sudo docker-compose build
           sudo docker-compose up -d
           echo "Done"
 
     - name: Check current user
       run: whoami
       
-#     - name: Change working directory
-#       run: cd /var/www/html/Laravel-Ecommerce-php8.0-working
-      
-#     - name: Bring down containers
-#       run: sudo docker-compose down
-      
-#     - name: Git Pull
-#       run: sudo git pull origin master
-      
-#     - name: Spin up containers
-#       run: sudo docker-compose up --build -d
-      
-#     - name: Done
-#       run: echo "Done"
