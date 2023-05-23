@@ -17,6 +17,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
         script: |
+          /usr/bin/docker-compose --version
           cd /var/www/html/Laravel-Ecommerce-php8.0-working
           sudo /usr/bin/docker-compose down
           sudo git pull origin master
