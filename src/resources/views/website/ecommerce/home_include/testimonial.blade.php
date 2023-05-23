@@ -1,7 +1,7 @@
 <div class="testimonils-area box-shadow mtb-35 bg-fff">
     <div class="product-title home3-bg text-uppercase">
         <i class="fa fa-star-o icon home3-bg2"></i>
-        <h3>RECENT TESTIMONIALS</h3>
+        <h3>RECENT UPDATED TESTIMONIALS</h3>
     </div>
     <div class="testmonial-active home2 right left-right-angle">
         <div class="single-testimonil clear">
